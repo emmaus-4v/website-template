@@ -1,0 +1,84 @@
+/* CSS voor alle pagina's */
+main {
+    /* Dit zorgt er voor dat je pagina in het midden staat*/
+    position: relative;
+    margin: auto;
+    
+    /* Dit is de breedte van je pagina. Deze mag maximaal 900 pixels zijn.*/
+    width: 700px;
+}
+
+/* Dit is de kop op je pagina */
+header {
+    color: #1E274A;;
+    text-align: center;
+}
+
+/* Footer (streep + text onderaan je pagina) */
+footer {
+    text-align: center;
+    clear: both;
+}
+
+/* CSS voor elementen die je naar links wil zweven */
+.zweefLinks {
+    float: left;
+    margin-right: 15px;
+}
+
+/* CSS voor elementen die je naar rechts wil zweven */
+.zweefRechts {
+    float: right;
+    margin-left: 15px;
+}
+
+/* Kleinere tekst, zie footer */
+.smalltext {
+    font-size: 0.7em;
+}
+
+
+
+/* CSS voor linkjes */
+a {
+    color: #1E274A;
+}
+
+a:hover {
+    color: #EF932B;
+    text-decoration: underline;
+}
+
+
+/* Navigatiebalk */
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    background-color: #EF932B;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgb(35, 52, 121);
+}
+
+nav li a.active {
+    background-color: rgb(46, 56, 160);
+    color: #EF932B;
+}
+
+
+
+
